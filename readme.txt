@@ -7,7 +7,7 @@
                 <App />
             </Provider>
     -ComponentA แสดงค่า state ด้วย useSelector
-    -ComponentB ส่ง action ด้วย dispatch(action) 
+    -ComponentB ส่ง action เพื่อ update state ด้วย dispatch(action) 
     *หากต้องการส่งข้อมูลด้วยให้ใช้ dispatch(action, data) โดย action ใน userSlice.js ต้องมีพารามิเตอร์รับค่าด้วยตามตัวอย่าง ที่ action clickred และเข้าถึงข้อมูลด้วย payload
         
         -ComponentB.jsx ทำการใช้ useDispatch เพื่อส่ง action
